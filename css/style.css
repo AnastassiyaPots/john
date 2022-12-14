@@ -93,3 +93,44 @@ header a {
     cursor: pointer;
 }
 
+.post {
+    background-color: #EDF7FA;
+    margin-top: 72px;
+    margin-bottom: 32px;
+}
+
+.post__header {
+    overflow: hidden;
+    margin-bottom: 16px;
+}
+
+.post__title {
+    float: left;
+    font-size: 22px;
+}
+
+.post__header a {
+    float: right;
+    text-decoration: none;
+    color: #00A8CC;
+    font-size: 16px;
+}
+
+.post .wrapper {
+    padding-top: 20px;
+    padding-bottom: 32px;
+}
+
+.post__cards {
+    overflow: hidden;
+}
+.post__card {
+    width: calc(50% - 10px);
+    float: left;
+    margin-right: 20px;
+}
+
+.post__card:last-child {
+    margin: 0;
+}
+
