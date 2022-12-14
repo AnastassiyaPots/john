@@ -8,7 +8,15 @@
 
 body {
     font-family: 'Heebo';
+    color: #21243D;
 }
+
+/* обертка в section */
+.wrapper {
+    width: 856px;
+    margin: 0 auto;
+}
+
 
 /* header */
 header {
@@ -31,5 +39,57 @@ header a {
     color: black;
     font-size: 20px;
     font-weight: 500;
+}
+
+/* блок автора */
+.author {
+    margin-top: 128px;
+    margin-bottom: 72px;
+}
+.author .wrapper {
+    overflow: hidden;
+}
+
+.author__info {
+    float: left;
+    width: calc(100% - 243px);
+    padding-right: 115px;
+}
+
+.author__avatar {
+    float: right;
+    width: 243px;
+}
+
+.author__avatar img {
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: -6px 6px 0px #EDF7FA;
+}
+.author__title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 136%;
+    margin-bottom: 40px;
+}
+
+.author__text {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+/* button */
+.btn {
+    font-weight: 500;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #FF6464;
+    display: inline-block;
+    border-radius: 2px;
+    padding: 8px 20px;
+    margin-top: 38px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
 }
 
